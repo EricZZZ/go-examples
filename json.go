@@ -12,7 +12,7 @@ type User struct {
 	Age       int    `json:"age"`
 }
 
-func main() {
+func main_json() {
 	http.HandleFunc("/decode", func(w http.ResponseWriter, r *http.Request) {
 		var user User
 		json.NewDecoder(r.Body).Decode(&user)
