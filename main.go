@@ -5,28 +5,29 @@ import (
 	"net/http"
 )
 
-type Todo struct {
-	Title string
-	Done  bool
+type ContactDetails struct {
+	Email   string
+	Subject string
+	Message string
 }
 
-type TodoPageData struct {
-	PageTitle string
-	Todos     []Todo
-}
-
-func mains() {
-	tmpl := template.Must(template.ParseFiles("layout.html"))
+func main() {
+	tmpl := template.Must(template.ParseFiles("templates/forms.html"))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		data := TodoPageData{
-			PageTitle: "My TODO list",
-			Todos: []Todo{
-				{Title: "Task 1", Done: false},
-				{Title: "Task 2", Done: true},
-				{Title: "Task 3", Done: false},
-			},
+		if r.Method != http.MethodPost {
+			tmpl.Execute(w, nil)
+			return
 		}
-		tmpl.Execute(w, data)
+
+		details := ContactDetails{
+			Email:   r.FormValue("email"),
+			Subject: r.FormValue("subject"),
+			Message: r.FormValue("message"),
+		}
+
+		_ = details
+
+		tmpl.Execute(w, struct{ Success bool }{true})
 	})
 	http.ListenAndServe(":80", nil)
 }
