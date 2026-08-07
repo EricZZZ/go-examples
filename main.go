@@ -15,7 +15,7 @@ type TodoPageData struct {
 	Todos     []Todo
 }
 
-func main() {
+func mains() {
 	tmpl := template.Must(template.ParseFiles("layout.html"))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		data := TodoPageData{
