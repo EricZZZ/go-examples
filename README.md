@@ -2,7 +2,9 @@
 
 This tutorial is very helpful for understanding Go Web projects, especially on how to design project structure, and the two challenges are also good.
 
-[tutorial](https://www.youtube.com/watch?v=s3XItrqfccw)
+URL: [tutorial](https://www.youtube.com/watch?v=s3XItrqfccw)
+
+Author: [Tiago](https://www.youtube.com/@TiagoTaquelim)
 
 ### use 
 - go
