@@ -22,3 +22,8 @@ Learn by building, experimenting, and reading.
 ## Good Speech Video
 
 [Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
+[Gopherfest 2015 | Go Proverbs with Rob Pike](https://www.youtube.com/watch?v=PAAkCSZUG1c)
+
+## Good Document
+
+[Go 语言设计哲学](https://golang3.eddycjy.com/)
