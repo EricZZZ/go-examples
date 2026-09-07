@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	_ "net/http/pprof"
+	"sync"
 	"time"
 )
 
@@ -149,4 +150,201 @@ func noCloseRange(list []any, workers int) {
 	// Otherwise, the channel is never closed. so worders
 	// leak once there are no more items left to process.
 	// close(ch)
+}
+
+func MethodContractViolation() {
+	items := make([]any, 10)
+	// Create a new worker
+	w := NewWorker()
+
+	// Start worker
+	w.Start()
+
+	// Operate on worker
+	for _, item := range items {
+		w.AddToQueue(item)
+	}
+	// Exits without calling `Stop`
+	// w.Stop()
+}
+
+type worker struct {
+	ch   chan any
+	done chan any
+}
+
+type Worker interface {
+	Start()
+	Stop()
+	AddToQueue(item any)
+}
+
+func NewWorker() Worker {
+	return &worker{
+		ch:   make(chan any),
+		done: make(chan any),
+	}
+}
+
+// Start spawns a background goroutine that extracts items pushed to the queue.
+func (w *worker) Start() {
+	go func() {
+		for {
+			select {
+			case <-w.ch: // Normal workflow
+			case <-w.done:
+				return // Shut down
+			}
+		}
+	}()
+}
+
+func (w *worker) Stop() {
+	// Allows goroutine created by Start to terminate
+	close(w.done)
+}
+
+func (w *worker) AddToQueue(item any) {
+	w.ch <- item
+}
+
+type Gossip struct {
+	mu     sync.Mutex
+	closed bool
+}
+
+func (g *Gossip) bootstrap() {
+	for {
+		g.mu.Lock()
+		if g.closed {
+			// Missing g.mu.Unlock
+			break
+		}
+		g.mu.Unlock()
+	}
+}
+
+// Missing unlock
+func Cockroach584() {
+	g := &Gossip{
+		closed: true,
+	}
+	// ...
+	g.bootstrap()
+	g.bootstrap() // Causes a leak
+}
+
+type node struct {
+	status chan chan struct{}
+	stop   chan struct{}
+	done   chan struct{}
+}
+
+func (n *node) Status() struct{} {
+	c := make(chan struct{})
+	n.status <- c
+	return <-c
+}
+
+func (n *node) run() {
+	for {
+		select {
+		case c := <-n.status:
+			c <- struct{}{}
+		case <-n.stop:
+			close(n.done)
+			return
+		}
+	}
+}
+
+func (n *node) Stop() {
+	select {
+	case n.stop <- struct{}{}:
+	case <-n.done:
+		return
+	}
+	<-n.done
+}
+
+func Etcd6857() {
+	n := &node{
+		status: make(chan chan struct{}),
+		stop:   make(chan struct{}),
+		done:   make(chan struct{}),
+	}
+	go n.run()
+	go n.Status()
+	go n.Stop()
+}
+
+type Connection struct {
+	closeChan chan bool
+}
+
+type idleAwareFramer struct {
+	resetChan chan bool
+	writeLock sync.Mutex
+	conn      *Connection
+}
+
+func (i *idleAwareFramer) monitor() {
+	var resetChan = i.resetChan
+	for range i.conn.closeChan {
+		i.writeLock.Lock()
+		close(resetChan)
+		i.resetChan = nil
+		i.writeLock.Unlock()
+		break
+	}
+}
+
+func (i *idleAwareFramer) WriteFrame() {
+	i.writeLock.Lock()
+	defer i.writeLock.Unlock()
+	if i.resetChan == nil {
+		return
+	}
+	i.resetChan <- true
+}
+
+func NewIdleAwareFramer() *idleAwareFramer {
+	return &idleAwareFramer{
+		resetChan: make(chan bool),
+		conn: &Connection{
+			closeChan: make(chan bool),
+		},
+	}
+}
+
+func Kubernetes6632() {
+	i := NewIdleAwareFramer()
+
+	go func() {
+		i.conn.closeChan <- true
+	}()
+	go i.monitor()
+	go i.WriteFrame()
+}
+
+type Manager struct {
+	plugins []int
+}
+
+func (pm *Manager) init() {
+	var group sync.WaitGroup
+	group.Add(len(pm.plugins))
+	for _, p := range pm.plugins {
+		go func(p int) {
+			defer group.Done()
+		}(p)
+		group.Wait() // Block here
+	}
+}
+
+func Moby25384() {
+	pm := &Manager{
+		plugins: []int{1, 2},
+	}
+	go pm.init()
 }
