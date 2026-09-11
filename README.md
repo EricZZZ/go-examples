@@ -16,3 +16,4 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-08 | [3870. 统计范围内的逗号](https://leetcode.cn/problems/count-commas-in-range/description/)                                          | 🟢 Easy    |
 | 2026-09-09 | [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/)                                        | 🟠 Medium  |
 | 2026-09-10 | [596. 超过 5 名学生的课](https://leetcode.cn/problems/classes-with-at-least-5-students/description/)                               | 🟢 Easy    |
+| 2026-09-11 | [3483. 不同三位偶数的数目](https://leetcode.cn/problems/unique-3-digit-even-numbers/description/)                                  | 🟢 Easy    |
