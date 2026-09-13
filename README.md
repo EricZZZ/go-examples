@@ -17,3 +17,5 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-09 | [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/)                                        | 🟠 Medium  |
 | 2026-09-10 | [596. 超过 5 名学生的课](https://leetcode.cn/problems/classes-with-at-least-5-students/description/)                               | 🟢 Easy    |
 | 2026-09-11 | [3483. 不同三位偶数的数目](https://leetcode.cn/problems/unique-3-digit-even-numbers/description/)                                  | 🟢 Easy    |
+| 2026-09-12 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/)                 | 🟢 Easy    |
+| 2026-09-13 | [551. 学生出勤记录 I](https://leetcode.cn/problems/student-attendance-record-i/description/)                                       | 🟢 Easy    |
