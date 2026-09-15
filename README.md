@@ -20,3 +20,4 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-12 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/)                 | 🟢 Easy    |
 | 2026-09-13 | [551. 学生出勤记录 I](https://leetcode.cn/problems/student-attendance-record-i/description/)                                       | 🟢 Easy    |
 | 2026-09-14 | [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap/description/)                                                       | 🟢 Easy    |
+| 2026-09-15 | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/)                                                                         | 🟠 Medium  |
