@@ -22,3 +22,4 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-14 | [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap/description/)                                                       | 🟢 Easy    |
 | 2026-09-15 | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/)                                                            | 🟠 Medium  |
 | 2026-09-16 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)                                                                | 🟠 Medium  |
+| 2026-09-17 | [48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/)                                                             | 🟠 Medium  |
