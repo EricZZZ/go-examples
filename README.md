@@ -24,3 +24,5 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-16 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)                                                                | 🟠 Medium  |
 | 2026-09-17 | [48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/)                                                             | 🟠 Medium  |
 | 2026-09-18 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/description/)                                                          | 🟠 Medium  |
+| 2026-09-19 | [LCR 146. 螺旋遍历二维数组](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/description/)                           | 🟢 Easy    |
+| 2026-09-20 | [3498. 字符串的反转度](https://leetcode.cn/problems/reverse-degree-of-a-string/description/)                                       | 🟢 Easy    |
