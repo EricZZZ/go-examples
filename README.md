@@ -2,27 +2,30 @@
 
 Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 
-| date       | name                                                                                                                               | difficulty |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| 2026-08-30 | [1025. 除数博弈](https://leetcode.cn/problems/divisor-game/description/)                                                           | 🟢 Easy    |
-| 2026-08-31 | [598. 区间加法 II](https://leetcode.cn/problems/range-addition-ii/description/)                                                    | 🟢 Easy    |
-| 2026-09-01 | [LCR 158. 库存管理 II](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/description/)      | 🟢 Easy    |
-| 2026-09-02 | [3875. 构造奇偶一致的数组 I](https://leetcode.cn/problems/construct-uniform-parity-array-i/description/)                           | 🟢 Easy    |
-| 2026-09-03 | [230. 二叉搜索树中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)                          | 🟠 Medium  |
-| 2026-09-04 | [3903. 最小稳定下标 I](https://leetcode.cn/problems/smallest-stable-index-i/description/)                                          | 🟢 Easy    |
-| 2026-09-05 | [3550. 数位和等于下标的最小下标](https://leetcode.cn/problems/smallest-index-with-digit-sum-equal-to-index/description/)           | 🟢 Easy    |
-| 2026-09-06 | [1068. 产品销售分析 I](https://leetcode.cn/problems/product-sales-analysis-i/description/)                                         | 🟢 Easy    |
-| 2026-09-07 | [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | 🟢 Easy    |
-| 2026-09-08 | [3870. 统计范围内的逗号](https://leetcode.cn/problems/count-commas-in-range/description/)                                          | 🟢 Easy    |
-| 2026-09-09 | [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/)                                        | 🟠 Medium  |
-| 2026-09-10 | [596. 超过 5 名学生的课](https://leetcode.cn/problems/classes-with-at-least-5-students/description/)                               | 🟢 Easy    |
-| 2026-09-11 | [3483. 不同三位偶数的数目](https://leetcode.cn/problems/unique-3-digit-even-numbers/description/)                                  | 🟢 Easy    |
-| 2026-09-12 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/)                 | 🟢 Easy    |
-| 2026-09-13 | [551. 学生出勤记录 I](https://leetcode.cn/problems/student-attendance-record-i/description/)                                       | 🟢 Easy    |
-| 2026-09-14 | [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap/description/)                                                       | 🟢 Easy    |
-| 2026-09-15 | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/)                                                            | 🟠 Medium  |
-| 2026-09-16 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)                                                                | 🟠 Medium  |
-| 2026-09-17 | [48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/)                                                             | 🟠 Medium  |
-| 2026-09-18 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/description/)                                                          | 🟠 Medium  |
-| 2026-09-19 | [LCR 146. 螺旋遍历二维数组](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/description/)                           | 🟢 Easy    |
-| 2026-09-20 | [3498. 字符串的反转度](https://leetcode.cn/problems/reverse-degree-of-a-string/description/)                                       | 🟢 Easy    |
+| date       | name                                                                                                                                                | difficulty |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 2026-08-30 | [1025. 除数博弈](https://leetcode.cn/problems/divisor-game/description/)                                                                            | 🟢 Easy    |
+| 2026-08-31 | [598. 区间加法 II](https://leetcode.cn/problems/range-addition-ii/description/)                                                                     | 🟢 Easy    |
+| 2026-09-01 | [LCR 158. 库存管理 II](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/description/)                       | 🟢 Easy    |
+| 2026-09-02 | [3875. 构造奇偶一致的数组 I](https://leetcode.cn/problems/construct-uniform-parity-array-i/description/)                                            | 🟢 Easy    |
+| 2026-09-03 | [230. 二叉搜索树中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)                                           | 🟠 Medium  |
+| 2026-09-04 | [3903. 最小稳定下标 I](https://leetcode.cn/problems/smallest-stable-index-i/description/)                                                           | 🟢 Easy    |
+| 2026-09-05 | [3550. 数位和等于下标的最小下标](https://leetcode.cn/problems/smallest-index-with-digit-sum-equal-to-index/description/)                            | 🟢 Easy    |
+| 2026-09-06 | [1068. 产品销售分析 I](https://leetcode.cn/problems/product-sales-analysis-i/description/)                                                          | 🟢 Easy    |
+| 2026-09-07 | [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)                  | 🟢 Easy    |
+| 2026-09-08 | [3870. 统计范围内的逗号](https://leetcode.cn/problems/count-commas-in-range/description/)                                                           | 🟢 Easy    |
+| 2026-09-09 | [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/)                                                         | 🟠 Medium  |
+| 2026-09-10 | [596. 超过 5 名学生的课](https://leetcode.cn/problems/classes-with-at-least-5-students/description/)                                                | 🟢 Easy    |
+| 2026-09-11 | [3483. 不同三位偶数的数目](https://leetcode.cn/problems/unique-3-digit-even-numbers/description/)                                                   | 🟢 Easy    |
+| 2026-09-12 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/)                                  | 🟢 Easy    |
+| 2026-09-13 | [551. 学生出勤记录 I](https://leetcode.cn/problems/student-attendance-record-i/description/)                                                        | 🟢 Easy    |
+| 2026-09-14 | [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap/description/)                                                                        | 🟢 Easy    |
+| 2026-09-15 | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/)                                                                             | 🟠 Medium  |
+| 2026-09-16 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/description/)                                                                                 | 🟠 Medium  |
+| 2026-09-17 | [48. 旋转图像](https://leetcode.cn/problems/rotate-image/description/)                                                                              | 🟠 Medium  |
+| 2026-09-18 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/description/)                                                                           | 🟠 Medium  |
+| 2026-09-19 | [LCR 146. 螺旋遍历二维数组](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/description/)                                            | 🟢 Easy    |
+| 2026-09-20 | [3498. 字符串的反转度](https://leetcode.cn/problems/reverse-degree-of-a-string/description/)                                                        | 🟢 Easy    |
+| 2026-09-21 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | 🟠 Medium  |
+| 2026-09-22 | [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/description/)                                                           | 🟠 Medium  |
+| 2026-09-23 | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-100-liked)                            | 🟠 Medium  |
