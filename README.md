@@ -29,3 +29,7 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-21 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | 🟠 Medium  |
 | 2026-09-22 | [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/description/)                                                           | 🟠 Medium  |
 | 2026-09-23 | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-100-liked)                            | 🟠 Medium  |
+| 2026-09-24 | [2525. 根据规则将箱子分类](https://leetcode.cn/problems/categorize-box-according-to-criteria/description/)                                          | 🟢 Easy    |
+| 2026-09-25 | [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/description/)                                                      | 🟠 Medium  |
+| 2026-09-26 | [3582. 为视频标题生成标签](https://leetcode.cn/problems/generate-tag-for-video-caption/description/)                                                | 🟢 Easy    |
+| 2026-09-25 | [1614. 括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/description/)                                      | 🟢 Easy    |
