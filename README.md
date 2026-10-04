@@ -33,3 +33,6 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-09-25 | [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/description/)                                                      | 🟠 Medium  |
 | 2026-09-26 | [3582. 为视频标题生成标签](https://leetcode.cn/problems/generate-tag-for-video-caption/description/)                                                | 🟢 Easy    |
 | 2026-09-25 | [1614. 括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/description/)                                      | 🟢 Easy    |
+| 2026-10-01 | [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/description/)                                                                         | 🟢 Easy    |
+| 2026-10-02 | [2529. 正整数和负整数的最大计数](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/description/)                  | 🟢 Easy    |
+| 2026-10-03 | [LCR 173. 点名](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/description/)                                                                   | 🟢 Easy    |
