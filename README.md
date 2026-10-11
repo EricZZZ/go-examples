@@ -36,3 +36,6 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-10-01 | [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/description/)                                                                         | 🟢 Easy    |
 | 2026-10-02 | [2529. 正整数和负整数的最大计数](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/description/)                  | 🟢 Easy    |
 | 2026-10-03 | [LCR 173. 点名](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/description/)                                                                   | 🟢 Easy    |
+| 2026-10-09 | [3005. 最大频率元素计数](https://leetcode.cn/problems/count-elements-with-maximum-frequency/description/)                                           | 🟢 Easy    |
+| 2026-10-10 | [LCR 175. 计算二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/description/)                                                   | 🟢 Easy    |
+| 2026-10-11 | [2778. 特殊元素平方和](https://leetcode.cn/problems/sum-of-squares-of-special-elements/description/)                                                | 🟢 Easy    |
