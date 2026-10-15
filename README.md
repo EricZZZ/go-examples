@@ -39,3 +39,6 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-10-09 | [3005. 最大频率元素计数](https://leetcode.cn/problems/count-elements-with-maximum-frequency/description/)                                           | 🟢 Easy    |
 | 2026-10-10 | [LCR 175. 计算二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/description/)                                                   | 🟢 Easy    |
 | 2026-10-11 | [2778. 特殊元素平方和](https://leetcode.cn/problems/sum-of-squares-of-special-elements/description/)                                                | 🟢 Easy    |
+| 2026-10-12 | [2006. 差的绝对值为 K 的数对数目](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/description/)                       | 🟢 Easy    |
+|2026-10-13|||
+|2026-10-14|[1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/description/)|🟢 Easy|
