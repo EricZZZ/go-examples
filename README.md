@@ -40,5 +40,9 @@ Solve LeetCode using Go, a daily problem from yihong [tg](https://t.me/hyi0618)
 | 2026-10-10 | [LCR 175. 计算二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/description/)                                                   | 🟢 Easy    |
 | 2026-10-11 | [2778. 特殊元素平方和](https://leetcode.cn/problems/sum-of-squares-of-special-elements/description/)                                                | 🟢 Easy    |
 | 2026-10-12 | [2006. 差的绝对值为 K 的数对数目](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/description/)                       | 🟢 Easy    |
-|2026-10-13|||
-|2026-10-14|[1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/description/)|🟢 Easy|
+| 2026-10-13 |                                                                                                                                                     |            |
+| 2026-10-14 | [1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/description/)                                                             | 🟢 Easy    |
+| 2026-10-15 | [2913. 子数组不同元素数目的平方和 I](https://leetcode.cn/problems/subarrays-distinct-element-sum-of-squares-i/description/)                         | 🟢 Easy    |
+| 2026-10-16 | [1544. 整理字符串](https://leetcode.cn/problems/make-the-string-great/description/)                                                                 | 🟢 Easy    |
+| 2026-10-17 | [3042. 统计前后缀下标对 I](https://leetcode.cn/problems/count-prefix-and-suffix-pairs-i/description/)                                               | 🟢 Easy    |
+| 2026-10-18 | [LCR 147. 最小栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/description/)                                                        | 🟢 Easy    |
